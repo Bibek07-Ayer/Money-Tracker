@@ -1,4 +1,4 @@
-import { useState } from "react";
+import useLocalStorage from "./hooks/useLocalStorage";
 import BalanceSummary from "./Components/BalanceSummary.jsx";
 import TransactionForm from "./Components/TransactionForm.jsx";
 import TransactionList from "./Components/TransactionList.jsx";
@@ -13,7 +13,7 @@ function App() {
     "Other",
   ];
 
-  const [transactions, setTransactions] = useState([]);
+  const [transactions, setTransactions] = useLocalStorage("transactions", []);
 
   function addTransaction(transaction) {
     setTransactions([...transactions, transaction]);
