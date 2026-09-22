@@ -65,11 +65,11 @@ Make sure you have [Node.js](https://nodejs.org/) installed.
 
 1. Clone the repository:
 ```bash
-   git clone https://github.com/YOUR-USERNAME/money-tracker.git
+   git clone https://github.com/Bibek07-Ayer/Money-Tracker.git
 ```
 2. Go into the project folder:
 ```bash
-   cd money-tracker
+   cd "money-tracker/Money Tracker React"
 ```
 3. Install the dependencies:
 ```bash
