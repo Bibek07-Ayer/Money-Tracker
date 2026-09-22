@@ -2,7 +2,7 @@
 
 A simple personal expense tracker built with React. It lets you log income and expenses, see your running balance, and filter or sort your transactions. All data is saved in your browser, so it is still there after a page refresh.
 
-**Live demo:** [Add your Vercel/Netlify link here]
+**Live demo:** [View Live Website](https://money-tracker-react-indol.vercel.app/)
 
 ## Screenshots
 
